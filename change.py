@@ -5,7 +5,7 @@ def change():
     gasto = money - expense
 
     pesos = int(gasto)
-    centavos = int((gasto - pesos)*100)
+    centavos = int( (gasto - pesos) *100)
 
     print("Ingresar gasto:")
     print(expense)
