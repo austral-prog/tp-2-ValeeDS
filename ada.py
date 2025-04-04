@@ -2,7 +2,8 @@ def ada():
     first_name = "AdA"
     last_name = "LoVeLAce"
 
-    full_name = first_name + " " + last_name
+    #version ant -> full_name = first_name + " " + last_name
+    full_name = f"{first_name} {last_name}"
 
     print(f"{full_name.lower()}")
     print(f"{full_name.title()}")
